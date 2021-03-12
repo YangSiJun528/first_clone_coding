@@ -4,16 +4,16 @@ body {
   width: 100%;
   height: 100%;
 }
-nav div{
+nav div {
   height: 32px;
   width: auto;
   border-bottom: 1px rgb(228, 228, 228) solid;
   padding: 0px;
-  margin: 0px auto;
+  margin: 0px 25px;
 }
 nav div ul {
   width: 1350px;
-  height: 32px;
+  height: 35px;
   padding: 0px;
   margin: 0px auto;
   display: flex;
@@ -21,7 +21,7 @@ nav div ul {
   justify-content: flex-end;
   list-style: none;
 }
-nav div ul li{
+nav div ul li {
   height: 100%;
 }
 nav div ul li a {
@@ -32,13 +32,17 @@ nav div ul li a {
   text-decoration: none;
   color: grey;
 }
-nav div ul li a:link { color: grey; }
-nav div ul li a:visited { color: grey; }
+nav div ul li a:link {
+  color: grey;
+}
+nav div ul li a:visited {
+  color: grey;
+}
 header {
   margin: 0px auto;
   padding: 20px 0px 0px 0px;
   width: 1350px;
-  height: 63px;
+  height: 73px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,11 +52,11 @@ header div {
   margin: 0px auto;
   display: flex;
 }
-header div ul{
+header div ul {
   list-style: none;
   display: flex;
   padding: 0px;
-  margin: 0px;
+  margin: 0px 0px 0px 20px;
   align-items: center;
   justify-content: flex-end;
   width: 1145px;
@@ -61,15 +65,90 @@ header div ul li {
   padding: 0px 40px;
 }
 
-header div ul li a{
+header div ul li a {
   padding-bottom: 23px;
   margin-bottom: 3px;
   color: black;
   text-decoration: none;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: bolder;
 }
-header div ul li a:link { color: black; }
-header div ul li a:visited { color: black; }
+header div ul li a img {
+  padding-left: 40px;
+}
+header div ul li a:link {
+  color: black;
+}
+header div ul li a:visited {
+  color: black;
+}
 
 main img {
   width: 100%;
+}
+.footer-box {
+  width: 1400px;
+  margin-top: 25px;
+  border-top: 1px solid rgb(228, 228, 228);
+  padding-bottom: 25px;
+}
+footer {
+  justify-content: flex-end;
+  display: flex;
+  width: 1350px;
+  height: 144px;
+  padding-top: 50px;
+  margin: 0px 25px;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+footer ul li a {
+  padding: 0px 30px 10px 0px;
+  text-decoration: none;
+  color: black;
+}
+footer ul li a:link {
+  color: black;
+}
+footer ul li a:visited {
+  color: black;
+}
+footer a {
+  padding-left: 80px;
+}
+.company-info {
+  width: 625px;
+  padding: 15px 0px 0px 0px;
+  margin: 0px;
+  font-size: 12px;
+  color: grey;
+}
+.copy {
+  width: 625px;
+  padding: 25px 0px 0px 0px;
+  margin: 0px;
+  font-size: 12px;
+  color: grey;
+}
+.company-info2 > * {
+  width: 365px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.company-info2 p {
+  padding-top: 8px;
+  font-size: 13px;
+  color: grey;
+}
+.company-info2 h2 {
+  font-weight: lighter;
+}
+.company-info2 h2 {
+  font-weight: lighter;
 }
